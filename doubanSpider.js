@@ -35,6 +35,9 @@ const log = function() {
 }
 
 const movieFromDiv = function(div) {
+
+
+    
     const movie = new Movie()
     const e = cheerio.load(div)
     movie.name = e('.title').text()
