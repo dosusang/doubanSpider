@@ -7,12 +7,22 @@ var es = function(selector) {
 const request = require('request')
 const cheerio = require('cheerio')
 
-function Movie() {
-    this.name = ''
-    this.score = 0
-    this.quote = ''
-    this.ranking = 0
-    this.coverUrl = ''
+// function Movie() {
+//     this.name = ''
+//     this.score = 0
+//     this.quote = ''
+//     this.ranking = 0
+//     this.coverUrl = ''
+// }
+
+class Movie {
+    constructor() {
+        this.name = ''
+        this.score = 0
+        this.quote = ''
+        this.ranking = 0
+        this.coverUrl = ''
+    }
 }
 
 function tmp() {
